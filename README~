@@ -1,17 +1,3 @@
-UPSITE
-===============================
-
-UPSITE is a large scale bioNLP classification system created by researchers from the University of Pittsburgh and Carnegie Mellon University. At the time of writing this documentation, the corresponding publication had been accepted to GLBio2015 conference and IEEE Transactions on Computational Biology and bioinformatics under the title “Text Mining for Validating Protein Interactions”. An exhaustive description of the system can be found within that paper. UPSITE has gained many functions over the course of its development and therefore can be used for a wide variety of ML related entity classification problems. The default and primary use of UPSITE is its ability to automatically synthesize and collate large portions of the ~24million document PubMed corpus and automatically classify entity-entity interactions (primarily PPIs). 
- 
-UPSITE was designed using only the highest performing modules available to the BioNLP community in an effort to minimize pipeline error propagation. This is great for optimizing performance, but makes its installation quite difficult. For this reason, I highly recommend accessing the public ally available Amazon Machine Instance (AMI) at the following URL: https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Images:visibility=public-images;search=UPSITE;sort=name 
-The AMI contains a fully pre-configured Ubuntu 14.04 environment and running version of UPSITE. 
-
-To install UPSITE, clone the repository to your local system and setup TEES by running the configure.py file. Refer to the TEES documentation for additional information- https://github.com/jbjorne/TEES/wiki
-
-Once you have installed TEES and any necessary dependencies, You may run the entire UPSITE algorithm through the UPSITE.py file. Run UPSITE using default arguments by navigating to its containing folder and typing "python UPSITE.py" into your terminal. Please refer to OptionParser help for the available command line args and explainations.
-
-UPSITE was written by Adam G. Roth. The author can be contacted for questions or collorborations at Roth.AdamG@gmail.com
-
 Turku Event Extraction System 2.2
 =================================
 
